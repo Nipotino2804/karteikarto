@@ -1,0 +1,27 @@
+name: karteikarto
+description: "A vocabulary trainer for the language latin"
+publish_to: 'none'
+version: 0.9.7
+
+environment:
+  sdk: '>=3.2.0-41.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.1.0
+  internet_connection_checker_plus: ^2.1.0
+  mysql_client: ^0.0.27
+  responsive_builder: ^0.7.0
+  url_launcher: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
