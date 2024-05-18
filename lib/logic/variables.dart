@@ -3,9 +3,9 @@ library global;
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
 
 // Database
-const String dbUsername = 'u_karteikarto';
-const String dbPassword = '4iQP7s7BV5UeZq';
-const String dbHost = 'nipotino2804.de';
+const String dbUsername = '';
+const String dbPassword = '';
+const String dbHost = '';
 const String dbName = 'karteikarto';
 const int dbPort = 3306;
 
